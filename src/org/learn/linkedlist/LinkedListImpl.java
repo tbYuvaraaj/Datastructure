@@ -5,7 +5,7 @@ public class LinkedListImpl {
     ListNode head = null;
     int length;
 
-    // Insert a node at end of list
+    // Insert a node at end of  list
     public void insertAtEnd(ListNode node) {
         ListNode pointer;
         if(head == null) {
