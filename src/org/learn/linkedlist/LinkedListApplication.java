@@ -12,6 +12,8 @@ public class LinkedListApplication {
         linkedList.display();
         linkedList.deleteIntermediateNode(new ListNode(20, null));
         linkedList.display();
+        linkedList.insertAtPos(new ListNode(100,null),3);
+        linkedList.display();
 
 
     }

@@ -9,6 +9,14 @@ public class DLLApplication {
         doublyLinkedList.insertAtBeginning(40);
         doublyLinkedList.insertAtEnd(100);
         doublyLinkedList.insertAtBeginning(50);
-        doublyLinkedList.display();
+        doublyLinkedList.display();System.out.println();
+        doublyLinkedList.insertAtPos(555,6);
+        doublyLinkedList.display();System.out.println();
+        doublyLinkedList.insertAtPos(111,4);
+        doublyLinkedList.display();System.out.println();
+        doublyLinkedList.deleteFirstNode();
+        doublyLinkedList.display();System.out.println();
+        doublyLinkedList.deleteFirstNode();
+        doublyLinkedList.display();System.out.println();
     }
 }
